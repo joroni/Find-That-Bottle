@@ -19,10 +19,6 @@ angular.module('app', ['ionic', 'openfb', 'app.controllers'])
             event.preventDefault();
         }
 
-        if ($window.localStorage['fbtoken']) {
-            $state.go('app.profile');
-            event.preventDefault();
-        }
     });
 
     $rootScope.$on('OAuthException', function() {
