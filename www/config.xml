@@ -28,10 +28,14 @@
     <plugin name="cordova-plugin-statusbar" source="npm"/>
     <plugin name="cordova-plugin-whitelist" source="npm"/>
     <plugin name="ionic-plugin-keyboard" source="npm"/>
-       <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin" />
+    <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin" />
     <platform name="android">
         <preference name="android-minSdkVersion" value="15" />
     </platform>
+     <platform name="ios">
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
+  </platform>
     <plugin name="cordova-plugin-console" source="npm"/>
     <plugin name="cordova-plugin-device" source="npm"/>
 
