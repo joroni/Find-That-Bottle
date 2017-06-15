@@ -1,0 +1,23 @@
+<ion-view title="Profile">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content has-header="true" padding="true" class="profile">
+
+        <div class="list card">
+
+            <div class="item item-image">
+                <img class="profile" ng-src="https://graph.facebook.com/{{ user.id }}/picture?width=200&height=200" />
+            </div>
+
+            <div class="item centered">
+                <h2>{{user.name}}</h2>
+                <p>{{user.email}}</p>
+            </div>
+        </div>
+
+    </ion-content>
+
+</ion-view>

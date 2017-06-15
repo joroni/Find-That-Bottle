@@ -1,0 +1,11 @@
+{
+    "name": "Share A Coke",
+    "short_name": "My Coke App 01",
+    "start_url": "index.html",
+    "display": "standalone",
+    "icons": [{
+        "src": "res/icon.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+    }]
+}

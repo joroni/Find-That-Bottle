@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id          =    "com.ionicframework.myAppName"
+        version     =    "1.0.0"
+        xmlns       =    "http://www.w3.org/ns/widgets"
+        xmlns:gap   =    "http://phonegap.com/ns/1.0"
+        versionCode =   "1">
+
+<widget id="com.cocacola.shareacoke" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Find That Bottle</name>
+    <description>
+        An Ionic Framework and Cordova project.
+    </description>
+    <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <feature name="StatusBar">
+        <param name="ios-package" onload="true" value="CDVStatusBar" />
+    </feature>
+    <engine name="android" spec="^5.0.0" />
+    <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <plugin name="cordova-plugin-splashscreen" source="npm"/>
+     <plugin name="cordova-plugin-statusbar" source="npm"/>
+       <plugin name="cordova-plugin-whitelist" source="npm"/>
+         <plugin name="ionic-plugin-keyboard" source="npm"/>
+           <plugin name="com.wikitude.phonegap.WikitudePlugin" source="npm"/>
+             <plugin name="cordova-plugin-console" source="npm"/>
+               <plugin name="cordova-plugin-device" source="npm"/>
+
+     
+    
+     
+     
+     
+     
+    
+</widget>
+
+
+
