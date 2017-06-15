@@ -130,6 +130,7 @@ angular.module('app.controllers', [])
 
         // Url/Path to the augmented reality experience you would like to load
         // arExperienceUrl: "http://localhost/experience/index.html",
+        base_url: "http://ec2-54-186-121-116.us-west-2.compute.amazonaws.com/iknow/server_side",
         arExperienceUrl: base_url + "/ar/" + "experience/index.html",
         //arExperienceUrl: "http://10.228.193.226:3000/experience/index.html",
         // The features your augmented reality experience requires, only define the ones you really need

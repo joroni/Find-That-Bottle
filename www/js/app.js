@@ -18,6 +18,11 @@ angular.module('app', ['ionic', 'openfb', 'app.controllers'])
             $state.go('app.login');
             event.preventDefault();
         }
+
+        if ($window.localStorage['fbtoken']) {
+            $state.go('app.profile');
+            event.preventDefault();
+        }
     });
 
     $rootScope.$on('OAuthException', function() {
@@ -125,6 +130,6 @@ angular.module('app', ['ionic', 'openfb', 'app.controllers'])
 
     // fallback route
     // fallback route
-    $urlRouterProvider.otherwise('/app/person/me/feed');
+    $urlRouterProvider.otherwise('/app/find');
 
 });
