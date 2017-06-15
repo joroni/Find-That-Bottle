@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id          =    "com.ionicframework.myAppName"
+<widget id          =    "com.cocacola.shareacoke"
         version     =    "1.0.0"
         xmlns       =    "http://www.w3.org/ns/widgets"
         xmlns:gap   =    "http://phonegap.com/ns/1.0"
         versionCode =   "1">
-
-<widget id="com.cocacola.shareacoke" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Find That Bottle</name>
     <description>
         An Ionic Framework and Cordova project.
@@ -27,12 +25,12 @@
     <engine name="ios" spec="^4.4.0" />
     <plugin name="cordova-plugin-inappbrowser" source="npm" />
     <plugin name="cordova-plugin-splashscreen" source="npm"/>
-     <plugin name="cordova-plugin-statusbar" source="npm"/>
-       <plugin name="cordova-plugin-whitelist" source="npm"/>
-         <plugin name="ionic-plugin-keyboard" source="npm"/>
-           <plugin name="com.wikitude.phonegap.WikitudePlugin" source="npm"/>
-             <plugin name="cordova-plugin-console" source="npm"/>
-               <plugin name="cordova-plugin-device" source="npm"/>
+    <plugin name="cordova-plugin-statusbar" source="npm"/>
+    <plugin name="cordova-plugin-whitelist" source="npm"/>
+    <plugin name="ionic-plugin-keyboard" source="npm"/>
+    <plugin name="com.wikitude.phonegap.WikitudePlugin" source="npm"/>
+    <plugin name="cordova-plugin-console" source="npm"/>
+    <plugin name="cordova-plugin-device" source="npm"/>
 
      
     
